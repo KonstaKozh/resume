@@ -1,0 +1,10 @@
+.header {
+  background-color: aqua;
+  border-bottom: 2px solid black;
+}
+
+.header-text {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
