@@ -5,24 +5,27 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
   background-color: gainsboro;
   border-bottom: 2px solid gray;
-  .header-text {
-    display: flex;
-    flex-direction: column;
-  }
+}
+.header .header-text {
+  display: flex;
+  flex-direction: column;
 }
 
 main {
   width: 100%;
   display: flex;
-  .work {
-    flex-grow: 2;
-  }
-  .about {
-    flex-grow: 1;
-  }
 }
+main .work {
+  flex-grow: 2;
+}
+main .about {
+  flex-grow: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
