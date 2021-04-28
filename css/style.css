@@ -4,28 +4,45 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 3px solid #f3ecec;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: gainsboro;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid gainsboro;
+  padding-left: 15px;
 }
 .header .header-text {
   display: flex;
   flex-direction: column;
 }
+.header .header-img {
+  padding: 10px 15px;
+}
 
 main {
   width: 100%;
   display: flex;
+  justify-content: space-around;
 }
 main .work {
-  flex-grow: 2;
+  max-width: 66%;
 }
 main .about {
-  flex-grow: 1;
+  padding-left: 15px;
+  border-left: 2px solid gainsboro;
+}
+
+article h3 {
+  margin: 10px 15px;
+  border-bottom: 2px solid gainsboro;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
