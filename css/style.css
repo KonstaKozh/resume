@@ -6,6 +6,7 @@ body {
   justify-content: center;
   border: 3px solid #f3ecec;
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  font: 0.9em Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .header {
@@ -42,10 +43,10 @@ article h3 {
 }
 article p {
   padding-left: 15px;
-  line-height: 1.3em;
+  line-height: 1.6em;
 }
 article ul {
-  line-height: 1.3em;
+  line-height: 1.6em;
 }
 article ul a {
   padding: 0;
@@ -53,15 +54,22 @@ article ul a {
 article a {
   padding-left: 15px;
   line-height: 1.3em;
+  text-decoration: none;
 }
 article svg {
-  padding: 10px;
+  padding: 4px 10px;
+  fill: blueviolet;
 }
 
 .social {
   display: flex;
   align-items: center;
   text-decoration: none;
+}
+
+.certificates-wrp {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */
