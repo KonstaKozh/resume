@@ -66,6 +66,12 @@ article svg {
   align-items: center;
   text-decoration: none;
 }
+.social:hover {
+  color: lightgray;
+}
+.social:hover .social-icon {
+  fill: lightgray;
+}
 
 .certificates-wrp {
   display: flex;
