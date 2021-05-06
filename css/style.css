@@ -81,5 +81,8 @@ article svg {
   display: flex;
   flex-wrap: wrap;
 }
+.certificates-wrp a:hover {
+  filter: opacity(50%);
+}
 
 /*# sourceMappingURL=style.css.map */

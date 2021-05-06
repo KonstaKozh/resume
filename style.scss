@@ -8,6 +8,7 @@ body {
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   font: 0.9em Arial,"Helvetica Neue",Helvetica,sans-serif
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -35,6 +36,7 @@ main {
     border-left: 2px solid gainsboro;
   }
 }
+
 article {
   h3 {
     margin: 10px 15px;
@@ -52,7 +54,6 @@ article {
         color: lightgray;
       }
     }
-
   }
   a {
     padding-left: 15px;
@@ -81,4 +82,7 @@ article {
 .certificates-wrp {
   display: flex;
   flex-wrap: wrap;
+    a:hover {
+      filter: opacity(50%)
+    }
 }
