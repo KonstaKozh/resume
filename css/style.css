@@ -30,32 +30,30 @@ main {
   justify-content: space-around;
 }
 main .work {
-  width: 66%;
+  max-width: 35em;
 }
 main .about {
-  width: 34%;
+  max-width: 24em;
   border-left: 2px solid gainsboro;
 }
 
+article {
+  padding: 0 15px;
+}
 article h3 {
-  margin: 10px 15px;
   border-bottom: 2px solid gainsboro;
 }
 article p {
-  padding-left: 15px;
   line-height: 1.6em;
 }
 article ul {
+  padding-left: 15px;
   line-height: 1.6em;
-}
-article ul a {
-  padding: 0 0.5em 0 0;
 }
 article ul a:hover {
   color: lightgray;
 }
 article a {
-  padding-left: 15px;
   line-height: 1.3em;
   text-decoration: none;
 }
@@ -80,9 +78,31 @@ article svg {
 .certificates-wrp {
   display: flex;
   flex-wrap: wrap;
+  gap: 15px;
 }
 .certificates-wrp a:hover {
   filter: opacity(50%);
+}
+
+@media only screen and (max-width: 640px) {
+  main {
+    flex-direction: column;
+  }
+  main .work {
+    max-width: 100%;
+  }
+  main .about {
+    max-width: 100%;
+    border-left: none;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .header h1 {
+    font-size: 1.5em;
+  }
+  .header h2 {
+    font-size: 1.2em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
